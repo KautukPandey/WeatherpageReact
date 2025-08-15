@@ -70,7 +70,7 @@ const Home = () => {
             </div>
                 
             {errorMsg && (
-                <div className="space y-2 bg-white/30 flex flex-col p-4 rounded-2xl w-[400px] mx-auto  justify-center items-center hover:scale-105 transition-transform duration-300">
+                <div className="space y-2 bg-white/30 flex flex-col p-4 rounded-2xl w-[400px] mx-auto  justify-center  hover:scale-105 transition-transform duration-300">
                     <p className="text-white font-semibold text-center">🚫{errorMsg}</p>
                 </div>
             )}

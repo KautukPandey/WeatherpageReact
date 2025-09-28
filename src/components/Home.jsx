@@ -21,7 +21,7 @@ const Home = () => {
             setData(res.data);
             setErrorMsg("");
         }catch(error){
-            setErrorMsg("City not found or network error. Try again.");
+            setErrorMsg("City not found or network error. Please Try again.");
             setData(null);
         }
 
